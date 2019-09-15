@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://i.imgur.com/dMPfzBQ.png)
 
-## Available Scripts
+## Front End Developer Challenge
+This endpoint containing a json list of jobs listings [https://nut-case.s3.amazonaws.com/jobs.json](https://nut-case.s3.amazonaws.com/jobs.json)
 
-In the project directory, you can run:
+Build an application to search and list jobs listings
 
-### `npm start`
+[Above layout is for illustration purpose only]
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Requirements and Output
 
-### `npm test`
+- User select the expirence or location or skill to search jobs
+- Display all expiring job listings
+- Display the total number of jobs found
+- Display the total number of jobs forund base on user search
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Good to have 
 
-### `npm run build`
+- SSO implementation 
+- Display pagination
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Features
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- User is able to sort based on job location and experience
+- User is able to filter based on compnay name
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+####  Build a frontend application to consume your final search endpoint using one of the following:
+- Angular
+- React (preferred)
+- Vuejs
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Conditions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- You should consume the api endpoint mention and not use it as internal json file
+- You should build this application in ECMAScript 6 or later, you are free to use any javascript framework apart form listed above.
+- Do not use any database or full text search engines
+- If you make any assumptions while solving the exercise please mention them clearly in the readme file
 
-## Learn More
+## What we are looking for
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Simple readable code** How well structured it is? Clear separation of concerns? Can anyone just look at it and get the idea to
+what is being done? Does it follow any standards?
+- **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
+- **Memory efficiency** How will it behave in case of large datasets?
+- **Testing** How well tested your application is? Can you give some metrics?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Questions & Delivery
 
-### Code Splitting
+If you have any questions to this challenge, please do reach out to us.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+The challenge should be delivered as a link to a public git repository (gitlab.com or bitbucket.com or github are preferred).
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Checklist
 
-### Making a Progressive Web App
+Before submitting, make sure that your program
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- [ ] Code accompanies the Unit Tests
+- [ ] Usage is clearly mentioned in the README file, This including setup the project, how to run it, how to run unit test, examples,etc
+- [ ] Uses the endpoint directly
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+## Note
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.
